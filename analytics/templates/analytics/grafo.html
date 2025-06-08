@@ -1,0 +1,10 @@
+{% extends 'home/base.html' %}
+
+{% block title %}Grafo de Dependências{% endblock %}
+
+{% block content %}
+  <h1>Grafo de Dependências</h1>
+  <div>
+    {{ graph_html|safe }}
+  </div>
+{% endblock %}
